@@ -10,7 +10,6 @@ const TaskList = () => {
   const [taskInput, setTaskInput] = useState('');
   const [filter, setFilter] = useState('All');
 
-  // Function to add a new task
   const addTask = () => {
     if (taskInput.trim()) {
       setTasks([
@@ -21,7 +20,6 @@ const TaskList = () => {
     }
   };
 
-  // Function to toggle task completion
   const toggleTaskCompletion = (id) => {
     setTasks(
       tasks.map((task) =>

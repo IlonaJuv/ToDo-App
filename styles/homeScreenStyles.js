@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-//homescreen
+
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -32,22 +32,3 @@ export const styles = StyleSheet.create({
     marginBottom: 20,
   },
 });
-
-
-/*import { StyleSheet } from 'react-native';
-
-export const globalStyles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 16,
-    backgroundColor: '#f7f7f7',
-  },
-  text: {
-    color: '#333',
-    fontSize: 16,
-  },
-  center: {
-    textAlign: 'center',
-  },
-});
- */
